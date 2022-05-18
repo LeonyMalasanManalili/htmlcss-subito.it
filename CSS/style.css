@@ -60,6 +60,16 @@ ul
     background-color: red;
 }
 
+.thin
+{
+    font-weight: lighter;
+}
+
+.uc
+{
+    text-transform: uppercase;
+}
+
 /* HEADER */
 
 /* nav mini */
@@ -128,7 +138,7 @@ ul
 
 .divlogo img
 {
-    width: 50%;
+    width: 250px;
 }
 
 /* form */
@@ -230,9 +240,19 @@ main h2
     background-color:#2650FF;
 }
 
+.motori1
+{
+    color: #2650FF;
+}
+
 .market
 {
     background-color:#F2A700;
+}
+
+.market1
+{
+    color: #F2A700;
 }
 
 .immobili
@@ -240,9 +260,19 @@ main h2
     background-color: #9924FF;
 }
 
+.immobili1
+{
+    color: #9924FF;
+}
+
 .lavoro
 {
     background-color:#07BB9C;
+}
+
+.lavoro1
+{
+    color: #07BB9C;
 }
 
 /* Paysafe Seciton */
@@ -346,6 +376,10 @@ main h2
 .earthday
 {
     display: flex;
+    padding-bottom: 36px;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-left: 8px;
 }
 
 .earthday div:first-child
@@ -356,6 +390,7 @@ main h2
 .earthday div:first-child img
 {
     width: 100%;
+    border-radius: 5px;
 }
 
 .earthday div:last-child
@@ -378,4 +413,142 @@ main h2
 {
     width: 100%;
     text-align: start;
+}
+
+/* Trust is safe Section */
+
+.trustsafe
+{
+    background-color: #F7F8FB;
+    padding: 32px 24px;
+    margin-bottom: 36px;
+}
+
+.trustsafe h3
+{
+    text-align: start;
+    padding-bottom: 24px;
+    font-size: 20px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .safecard
+{
+    width: calc(96% /3);
+}
+
+.container .safecard img
+{
+    width: 100%;
+}
+
+/* Apple G-play Section */
+
+.applegplay
+{
+    background-color: #F7F8FB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #F7F8FB;
+}
+
+.applegplay h3, .applegplay h5
+{
+    text-align: center;
+    margin: 8px 0;;
+}
+
+.Badges
+{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 16px;
+}
+
+/* Discover Section */
+
+.Discoverbig
+{
+    padding-bottom: 24px;
+    border-bottom: 1px solid #918C8F;
+}
+
+.Discoverbig h4 ,.Discoverbig p
+{
+    margin-bottom: 16px;
+}
+
+.Discoverbig p a
+{
+    font-size: 14px;
+}
+
+/* FOOTER */
+
+footer
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15%;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+footer .divfooter
+{
+    padding-top: 32px;
+    padding-bottom: 48px;
+}
+
+footer .divfooter:first-child
+{
+    padding-left: 20px;
+}
+
+.divfooter p
+{
+    font-size: 14px;
+}
+
+.divfooter a
+{
+    display: flex;
+    flex-direction: column;
+    color: #918C8F;
+    font-size: 14px;
+    padding: 12px 0;
+}
+
+.divfooter a:hover
+{
+ text-decoration: underline;
+}
+
+footer img
+{
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+
+.piva
+{
+    position: absolute;
+    width: 150px;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50% , 0);
+    width: 100%;
+    text-align: center;
 }
