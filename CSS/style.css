@@ -10,5 +10,176 @@
 
 /* Utilities */
 
+body
+{
+    padding: 0 23%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.needp
+{
+    padding: 14px;
+    width: 90%;
+    border: 1px solid #918C8F;
+    color: #918C8F;;
+}
+
+.larghezza
+{
+    width: 95%;
+}
 
 
+/* HEADER */
+
+/* First Navigation */
+
+.firstul
+{
+    margin-bottom: 8px;
+}
+
+.firstul ul
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px 8px;
+}
+
+.firstul ul li a
+{
+    padding: 0px 8px;
+    font-size: 14px;
+    color: #918C8F;
+    border-right: 1px solid #918C8F;
+}
+
+/* Subito accesso registrazione carica annuncio */
+
+.Subitoheader
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-top: 1px solid #DFE3ED;
+    border-bottom: 1px solid #DFE3ED;
+}
+
+.Subitoheader img
+{
+    width: 230px;
+}
+
+.Subitoheader ul li
+{
+    padding: 8px 16px;
+}
+
+.Subitoheader ul li:first-child , .Subitoheader ul li:last-child
+{
+    font-weight: bold;
+    color: #3C4858;
+}
+
+.Subitoheader ul li:last-child a
+{
+    color: red;
+    padding-left: 0;
+}
+
+.Subitoheader ul li:last-child
+{
+    background-color: #FEECEB;
+}
+
+/* search section */
+
+.search
+{
+    box-shadow: 0 10px 24px 0 rgb(0 0 0 / 10%);
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.search a
+{
+    color: #fff;
+    background-color: red;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.search h5
+{
+    margin-bottom: 8px;
+}
+
+.calc
+{
+    width:calc(100% / 3);
+}
+
+/* MAIN */
+
+/* Explore section */
+
+.exploresection
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+    margin-top: 24px;
+}
+
+.card
+{
+    height: 170px;
+    width: calc(100% / 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 48px;
+    gap: 2em;
+    border-radius: 10px;
+}
+
+.card button
+{
+    padding: 4px 8px;
+    color: #fff;
+    border: #fff 1px solid;
+    border-radius: 5px;
+}
+
+.motori 
+{
+    background-color:#2650FF;
+}
+
+.market
+{
+    background-color:#F2A700;
+}
+
+.immobili
+{
+    background-color: #9924FF;
+}
+
+.lavoro
+{
+    background-color:#07BB9C;
+}
