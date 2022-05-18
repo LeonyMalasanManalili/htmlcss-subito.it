@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <!-- My CSS -->
     <link rel="stylesheet" href="CSS/style.css">
 
@@ -19,13 +19,13 @@
 </head>
 
 <body>
-    
+
     <!-- HEADER -->
 
-    <header>
+    <header class="sizehmf">
 
-        <div class="firstul">
-            <ul>
+        <div class="divbeforeall w100">
+            <ul  class="navbeforeall">
                 <li><a href="">Magazine</a></li>
                 <li><a href="">Consigli per la vendita</a></li>
                 <li><a href="">Negozi e Aziende</a></li>
@@ -36,80 +36,141 @@
             </ul>
         </div>
 
-        <div class="Subitoheader">
+        <div class="Log w100">
+            <div class="divlogo">
+                <img src="./img/Logosubito.svg" alt="Logosubito.svg">
+            </div>
 
-            <img src="./img/Logosubito.svg" alt="Logosubito.svg">
-
-            <ul class="logregins">
-                <li><a href="">Accedi</a></li>
+            <ul>
+                <li><a href="" class="bold">Accedi</a></li>
                 <li><a href="">Registrati</a></li>
                 <li><a href="">
-                <li><a href=""><i class="fa-regular fa-square-plus fa-lg"></i> Inserisci Annuncio</a></li>
+                <li><a href="" class="red annuncio"><i class="fa-regular fa-square-plus fa-lg"></i> Inserisci Annuncio</a></li>
             </ul>
 
         </div>
 
-        <form class="search larghezza">
+        <form>
 
-            <div class="calc">
+            <div class="divform">
                 <h5>Cosa cerchi?</h5>
-                <input type="text" placeholder="Vespa,IphoneBilocale" class="needp">
+                <div class="contain">
+                    <i class="fa-solid fa-magnifying-glass gray"></i>
+                    <input type="text" placeholder="Vespa,IphoneBilocale" class="w80">
+                </div>               
             </div>
-            <div class="calc">
+            <div class="divform">
                 <h5>In quale categoria</h5>
-                <select class="needp">
-                    <option>Tutte le categorie</option>
-                </select>
+                <div class="contain">
+                    <i class='fa-solid fa-table-cells-large gray'></i>
+                    <select class="w90">
+                        <option class="blocks">Tutte le categorie</option>
+                    </select>
+                </div>
             </div>
-            <div class="calc">
+            <div class="divform">
                 <h5>Dove?</h5>
-                <select class="needp">
-                    <option>Tutta italia</option>
-                </select>
+                <div class="contain">
+                    <i class="fa-solid fa-location-dot gray"></i>
+                    <select class="w90">
+                        <option>Tutta italia</option>
+                    </select>
+                </div>
             </div>
 
-            <a>
-                <i class="fa-solid fa-magnifying-glass fa-lg    "></i>
-            </a>
-
+            <div class="divlens">
+                <a class="lens">
+                 <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </a>
+            </div>
         </form>
 
     </header>
 
     <!-- MAIN -->
 
-    <main>
+    <main class="sizehmf">
 
-        <h2 style="text-align: center;color: #918C8F;">Esplora le nostre sezioni</h2>
+        <h2 class="gray start">Esplora le nostre sezioni</h2>
 
-        <section class="exploresection larghezza">
+        <section class="Section-Sections">
 
             <div class="card motori">
                 <img src="./img/Motori-bianco.svg" alt="">
-                <button class="motori">Cerca in motori</button>
+                <button class="motori"><a href="">Cerca in motori</a></button>
             </div>
-
+    
             <div class="card market">
                 <img src="./img/Market-bianco.svg" alt="">
-                <button class="market">Cerca in market</button>
+                <button class="market"><a href="">Cerca in market</a></button>
             </div>
-
+    
             <div class="card immobili">
                 <img src="./img/Immobili-bianco.svg" alt="">
-                <button class="immobili">Cerca in immobili</button>
+                <button class="immobili"><a href="">Cerca in immobili</a></button>
             </div>
-
+    
             <div class="card lavoro">
                 <img src="./img/Lavoro-bianco.svg" alt="">
-                <button class="lavoro">Cerca in lavoro</button>
+                <button class="lavoro"><a href="">Cerca in lavoro</a></button>
             </div>
 
+        </section>
+
+        <section class="Paysafe">
+
+            <div>
+                <h2><strong>Prova TuttoSubito</strong></h2>
+                <p class="gray">Il nostro servizio di <strong>pagamento sicuro</strong> e <br>
+                <strong>spedizione integrata</strong></p>
+                <p class="red"><strong>Scopri</strong></p>
+            </div>
+        
+            <div>
+                <img src="./img/Paysafe.webp" alt="img">
+                <button>Paga in sicurezza</button>
+            </div>
+
+            <div>
+                <img src="./img/Sellsafe.webp" alt="img">
+                <button>Vendi gratis</button>
+            </div>
+
+        </section>
+
+        <section class="Banner">
+            
+            <div>
+                <img src="./img/001_DESKTOP_inserisciannuncio.jpg" alt="img">
+            </div>
+            <div class="box1">
+                <h2>Comincia a guadagnare</h2>
+                <p class="gray">Dai al tuo usato una seconda occasione: vendi <br>
+                quello che non usi più, subito.</p>
+            </div>
+            <div>
+                <button><a href=""><i class="fa-regular fa-square-plus fa-lg"></i> Inserisci Annuncio</a></button>
+            </div>
+
+        </section>
+
+        <!-- Section Earthday -->
+
+        <section class="earthday">
+            <div>
+                <img src="./img/HP_BOX_earth_day_20220426.jpg" alt="">
+            </div>
+            <div>
+                <h5 class="red bold">SUBITO</h5>
+                <h2 class="bold">La second hand non è una seconda <br> scelta</h2>
+                <p class="gray">Fai la scelta giusta per te e il pianeta.</p>
+            </div>
         </section>
 
     </main>
 
     <!-- FOOTER -->
-
+    
 </body>
 
 </html>

@@ -8,13 +8,6 @@
     font-family: sans-serif;
 }
 
-/* Utilities */
-
-body
-{
-    padding: 0 23%;
-}
-
 a
 {
     text-decoration: none;
@@ -22,146 +15,214 @@ a
 
 ul
 {
-    list-style-type: none;
-    display: flex;
+    list-style: none;
 }
 
-.needp
+/* utilities */
+
+.red
 {
-    padding: 14px;
+    color: red;
+}
+
+.gray
+{
+    color: #918C8F;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.w100
+{
+    width: 100%;
+}
+
+.w90
+{
     width: 90%;
-    border: 1px solid #918C8F;
-    color: #918C8F;;
 }
 
-.larghezza
+.w50
 {
-    width: 95%;
+    width: 50%;
 }
 
+.sizehmf
+{
+    padding: 0 22%;
+}
+
+.bg-red
+{
+    background-color: red;
+}
 
 /* HEADER */
 
-/* First Navigation */
+/* nav mini */
 
-.firstul
-{
-    margin-bottom: 8px;
-}
-
-.firstul ul
+.divbeforeall
 {
     display: flex;
     justify-content: flex-end;
-    padding: 4px 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
-.firstul ul li a
+.navbeforeall
 {
-    padding: 0px 8px;
-    font-size: 14px;
-    color: #918C8F;
-    border-right: 1px solid #918C8F;
+    display: flex;
+
 }
 
-/* Subito accesso registrazione carica annuncio */
+.navbeforeall li a
+{
+    padding: 0 8px;
+    font-size: 14px;
+    border-right: 1px solid #918C8F;
+    color: #918C8F;
+}
 
-.Subitoheader
+.navbeforeall li:last-child a
+{
+    padding-right: 12px;
+    border-right: none;
+}
+
+/* Login Sign Insert */
+
+.Log
 {
     display: flex;
     justify-content: space-between;
     padding: 16px 0;
-    border-top: 1px solid #DFE3ED;
-    border-bottom: 1px solid #DFE3ED;
+    border-top: 1px solid #918C8F;
+    border-bottom: 1px solid #918C8F;
+    margin-bottom: 42px;
+    align-items: center;
 }
 
-.Subitoheader img
+.Logh div
 {
-    width: 230px;
+    width: calc(100% / 2);
 }
 
-.Subitoheader ul li
+.Log ul
 {
-    padding: 8px 16px;
-}
-
-.Subitoheader ul li:first-child , .Subitoheader ul li:last-child
-{
-    font-weight: bold;
-    color: #3C4858;
-}
-
-.Subitoheader ul li:last-child a
-{
-    color: red;
-    padding-left: 0;
-}
-
-.Subitoheader ul li:last-child
-{
-    background-color: #FEECEB;
-}
-
-/* search section */
-
-.search
-{
-    box-shadow: 0 10px 24px 0 rgb(0 0 0 / 10%);
-    margin: 40px auto;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 20px;
 }
 
-.search a
+.Log li a
+{
+    padding: 0 8px;
+}
+
+.Log .annuncio
+{
+    background-color: #DFE3ED;
+    padding: 8px 12px;
+}
+
+.divlogo img
+{
+    width: 50%;
+}
+
+/* form */
+
+form
+{
+    display: flex;
+    padding: 24px 18px;
+    align-items: end;
+    box-shadow: 0 10px 24px 0 rgb(0 0 0 / 10%);
+}
+
+.divform
+{
+    width:calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.divform input , .divform select
+{
+    border: none;
+    font-size: 16px;
+    color: gray;
+}
+
+.contain
+{
+    padding: 12px 16px;
+    border: 1px solid #DFE3ED;
+    width: 90%;
+    vertical-align: middle;
+}
+
+.divlens
 {
     color: #fff;
     background-color: red;
     padding: 14px;
     border-radius: 5px;
+    vertical-align: midlle;
 }
 
-.search h5
+.lens
 {
-    margin-bottom: 8px;
-}
-
-.calc
-{
-    width:calc(100% / 3);
+    font-size: 16px;
 }
 
 /* MAIN */
 
-/* Explore section */
+main .start
+{
+    margin-top: 36px;
+}
 
-.exploresection
+main h2
+{
+    padding-top: 16px;
+    text-align: center;
+}
+
+/* Section Sections */
+
+.Section-Sections
 {
     display: flex;
-    justify-content: space-between;
-    gap: 1.5em;
-    margin-top: 24px;
+    justify-content: space-around;
+    padding-bottom:16px;
 }
 
 .card
 {
     height: 170px;
-    width: calc(100% / 4);
+    width: calc(92% / 4);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 48px;
+    padding: 24px;
     gap: 2em;
     border-radius: 10px;
+    margin: 36px 0;
 }
 
 .card button
 {
     padding: 4px 8px;
-    color: #fff;
     border: #fff 1px solid;
     border-radius: 5px;
+}
+
+.card button a
+{
+    color: #fff;
 }
 
 .motori 
@@ -182,4 +243,139 @@ ul
 .lavoro
 {
     background-color:#07BB9C;
+}
+
+/* Paysafe Seciton */
+
+.Paysafe
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 36px;
+}
+
+.Paysafe h2
+{
+    text-align: start;
+}
+
+.Paysafe div:first-child p
+{
+    margin: 4px 0;
+}
+
+.Paysafe div
+{
+    width: calc(96% / 3);
+}
+
+.Paysafe img
+{
+    width: 100%;
+}
+
+.Paysafe div
+{
+    position: relative;
+}
+
+.Paysafe button
+{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50% , 0);
+    width: 80%;
+    padding: 16px 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Section Banner */
+
+.Banner
+{
+    display: flex;
+    border: 1px solid #DFE3ED;
+    margin-top: 8px;
+    margin-bottom: 36px;
+}
+
+.Banner h2
+{
+    text-align: start;
+}
+
+.Banner div
+{
+    width: 30%;
+}
+
+.Banner div:nth-child(2)
+{
+    width: 40%;
+}
+
+.Banner img
+{
+    width: 100%;
+}
+
+.Banner button
+{
+    background-color: #FEECEB;
+    padding: 8px 16px;
+    border: none;
+    margin-top: 25%;
+}
+
+.Banner button a
+{
+    color: red;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Section Earthday */
+
+.earthday
+{
+    display: flex;
+}
+
+.earthday div:first-child
+{
+    width: 55%;
+}
+
+.earthday div:first-child img
+{
+    width: 100%;
+}
+
+.earthday div:last-child
+{
+    width: 45%;
+}
+
+.earthday div:last-child
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 16px;
+    justify-content: center;
+}
+
+.earthday div:last-child h5,
+.earthday div:last-child h2,
+.earthday div:last-child p
+{
+    width: 100%;
+    text-align: start;
 }
