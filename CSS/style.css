@@ -484,12 +484,14 @@ main h2
 
 .Discoverbig h4 ,.Discoverbig p
 {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
+    margin-top: 16px;
 }
 
-.Discoverbig p a
+.CategoryBox_links-group___7_mj a
 {
-    font-size: 14px;
+font-size: 14px;
+color: #07BB9C;
 }
 
 /* FOOTER */
