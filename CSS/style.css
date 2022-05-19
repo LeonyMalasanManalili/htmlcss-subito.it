@@ -115,7 +115,7 @@ ul
     align-items: center;
 }
 
-.Logh div
+.Log div
 {
     width: calc(100% / 2);
 }
@@ -553,4 +553,9 @@ footer img
     transform: translate(-50% , 0);
     width: 100%;
     text-align: center;
+}
+
+.d-flex
+{
+    display: flex;
 }
