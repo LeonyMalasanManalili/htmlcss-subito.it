@@ -96,6 +96,11 @@ ul
     color: #918C8F;
 }
 
+.navbeforeall li a:hover
+{
+    text-decoration: underline;
+}
+
 .navbeforeall li:last-child a
 {
     padding-right: 12px;
