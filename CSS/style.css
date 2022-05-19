@@ -141,6 +141,13 @@ ul
     width: 250px;
 }
 
+.annuncio:hover
+{
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+
 /* form */
 
 form
@@ -157,6 +164,17 @@ form
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.divform:nth-child(2):hover,.divform:nth-child(2) select:hover
+{
+    cursor: pointer;
+}
+
+.divform:last-child:hover , .divform:last-child select:hover,
+.divform:last-child .contain:hover
+{
+    cursor:alias;
 }
 
 .divform input , .divform select
@@ -181,6 +199,11 @@ form
     padding: 14px;
     border-radius: 5px;
     vertical-align: midlle;
+}
+
+.divlens:hover
+{
+    opacity: 0.6;
 }
 
 .lens
@@ -221,6 +244,11 @@ main h2
     gap: 2em;
     border-radius: 10px;
     margin: 36px 0;
+}
+
+.card button:hover
+{
+    background-color: rgb(255 255 255/ 30%);
 }
 
 .card button
@@ -325,6 +353,11 @@ main h2
     border-radius: 5px;
 }
 
+.Paysafe button:hover
+{
+    cursor: pointer;
+}
+
 /* Section Banner */
 
 .Banner
@@ -361,6 +394,12 @@ main h2
     padding: 8px 16px;
     border: none;
     margin-top: 25%;
+}
+
+.Banner button:hover
+{
+    border: 1px solid red;
+    border-radius: 5px;
 }
 
 .Banner button a
@@ -429,6 +468,24 @@ main h2
     text-align: start;
     padding-bottom: 24px;
     font-size: 20px;
+}
+
+.trustsafe h4
+{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 16px 0;
+}
+
+.trustsafe p a
+{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.trustsafe p a:hover
+{
+    text-decoration: underline;
 }
 
 .container
